@@ -1,8 +1,102 @@
------------------------------------------------------------------------------------------
-# Блок задач 1
+# Tasks
 
-1) Сделать главный экран
-2) Добавить таймер
-3) Добавить звук нажатия кнопки
-4) Добавить звук звонков
-5) Сделать несколько профилей таймеров
+## Phase 0 — Project setup
+
+- [x] Create project folder
+- [x] Create README.md
+- [x] Create CONTEXT.md
+- [x] Create TASKS.md
+- [x] Create CHANGELOG.md
+- [x] Initialize Git repository
+- [x] Create initial commit
+
+## Phase 1 — Project foundation
+
+- [ ] Create React + TypeScript + Vite project
+- [ ] Install dependencies
+- [ ] Run project locally
+- [ ] Remove default Vite template
+- [ ] Create basic project structure
+
+## Phase 2 — Main interface
+
+- [ ] Create main screen
+- [ ] Create timer display
+- [ ] Create timer controls
+- [ ] Add focus/break status
+- [ ] Apply basic visual design
+- [ ] Make interface responsive
+
+## Phase 3 — Timer
+
+- [ ] Implement countdown
+- [ ] Add start button
+- [ ] Add pause button
+- [ ] Add reset button
+- [ ] Handle timer completion
+- [ ] Implement short break
+- [ ] Implement long break
+- [ ] Implement automatic cycle
+- [ ] Implement customizable cycle sequence
+
+## Phase 4 — Timer profiles
+
+- [ ] Create profile model
+- [ ] Create default profile
+- [ ] Add profile creation
+- [ ] Add profile editing
+- [ ] Add profile deletion
+- [ ] Add profile switching
+- [ ] Save profile settings
+
+## Phase 5 — Local storage
+
+- [ ] Save profiles to localStorage
+- [ ] Save current profile
+- [ ] Save timer settings
+- [ ] Restore data after page reload
+
+## Phase 6 — Notifications and sounds
+
+- [ ] Add button click sound
+- [ ] Add timer completion sound
+- [ ] Add browser notifications
+- [ ] Add notification permission handling
+
+## Phase 7 — Tasks
+
+- [ ] Add task creation
+- [ ] Add task completion
+- [ ] Connect tasks with timer sessions
+
+## Phase 8 — Statistics
+
+- [ ] Track completed sessions
+- [ ] Track focus time
+- [ ] Create basic statistics
+- [ ] Add statistics screen
+
+## Phase 9 — Cloud
+
+- [ ] Set up Firebase
+- [ ] Add authentication
+- [ ] Add Firestore
+- [ ] Synchronize profiles
+- [ ] Synchronize tasks
+- [ ] Synchronize statistics
+
+## Phase 10 — Deployment
+
+- [ ] Prepare production build
+- [ ] Connect GitHub repository
+- [ ] Deploy to Vercel
+- [ ] Test production version
+
+## Future ideas
+
+- [ ] Themes
+- [ ] Custom sounds
+- [ ] Achievements
+- [ ] Calendar
+- [ ] PWA
+- [ ] Import/export settings
