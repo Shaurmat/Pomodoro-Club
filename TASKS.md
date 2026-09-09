@@ -12,10 +12,10 @@
 
 ## Phase 1 — Project foundation
 
-- [ ] Create React + TypeScript + Vite project
-- [ ] Install dependencies
-- [ ] Run project locally
-- [ ] Remove default Vite template
+- [x] Create React + TypeScript + Vite project
+- [x] Install dependencies
+- [x] Run project locally
+- [x] Remove default Vite template
 - [ ] Create basic project structure
 
 ## Phase 2 — Main interface

@@ -1,39 +1,32 @@
-# Pomodoro Club
+# React + TypeScript + Vite
 
-Minimalistic and flexible Pomodoro timer.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-## About
+Currently, two official plugins are available:
 
-Pomodoro Club is a web application designed to help users
-manage focused work and rest periods.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Core Features
+## React Compiler
 
-- Customizable Pomodoro timer
-- Focus sessions
-- Short breaks
-- Long breaks
-- Multiple profiles
-- Custom timer cycles
-- Notifications
-- Sound notifications
-- Task management
-- Productivity statistics
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Technology
+## Expanding the Oxlint configuration
 
-- React
-- TypeScript
-- Vite
-- Firebase
-- Git
-- Vercel
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-## Development
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
 
-The project is developed incrementally.
-Each feature is implemented and tested separately.
-
-## Status
-
-🚧 In development
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
