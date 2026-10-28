@@ -1,0 +1,63 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background-color: #FAF9F6;
+}
+
+.timer-card {
+  width: 100%;
+  max-width: 320px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.session-status {
+  background-color: #E6F1FB;
+  color: #185FA5;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 999px;
+}
+
+.timer-display {
+  font-size: 56px;
+  font-weight: 600;
+  color: #2C2C2A;
+  letter-spacing: 1px;
+}
+
+.timer-controls__start-button {
+  width: 100%;
+  background-color: #E1F5EE;
+  color: #0F6E56;
+  border: 1.5px solid #5DCAA5;
+  border-radius: 16px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.timer-controls__start-button:hover {
+  background-color: #C9EBDF;
+}
+
+@media (max-width: 400px) {
+  .timer-card {
+    padding: 32px 20px;
+  }
+
+  .timer-display {
+    font-size: 48px;
+  }
+}
