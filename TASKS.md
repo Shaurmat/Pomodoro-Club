@@ -16,16 +16,16 @@
 - [x] Install dependencies
 - [x] Run project locally
 - [x] Remove default Vite template
-- [ ] Create basic project structure
+- [x] Create basic project structure
 
 ## Phase 2 — Main interface
 
-- [ ] Create main screen
-- [ ] Create timer display
-- [ ] Create timer controls
-- [ ] Add focus/break status
-- [ ] Apply basic visual design
-- [ ] Make interface responsive
+- [x] Create main screen
+- [x] Create timer display
+- [x] Create timer controls
+- [x] Add focus/break status
+- [x] Apply basic visual design
+- [x] Make interface responsive
 
 ## Phase 3 — Timer
 
