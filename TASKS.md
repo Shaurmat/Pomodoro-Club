@@ -33,9 +33,9 @@
 - [x] Add start button
 - [x] Add pause button
 - [x] Add reset button
-- [ ] Handle timer completion
-- [ ] Implement short break
-- [ ] Implement long break
+- [x] Handle timer completion
+- [x] Implement short break
+- [x] Implement long break
 - [ ] Implement automatic cycle
 - [ ] Implement customizable cycle sequence
 
