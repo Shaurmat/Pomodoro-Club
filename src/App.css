@@ -36,8 +36,14 @@
   letter-spacing: 1px;
 }
 
-.timer-controls__start-button {
+.timer-controls {
   width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.timer-controls__main-button {
+  flex: 1;
   background-color: #E1F5EE;
   color: #0F6E56;
   border: 1.5px solid #5DCAA5;
@@ -48,8 +54,22 @@
   cursor: pointer;
 }
 
-.timer-controls__start-button:hover {
+.timer-controls__main-button:hover {
   background-color: #C9EBDF;
+}
+
+.timer-controls__reset-button {
+  width: 52px;
+  background-color: #F5F4F0;
+  color: #5F5E5A;
+  border: 1px solid #E3E1DA;
+  border-radius: 16px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.timer-controls__reset-button:hover {
+  background-color: #ECEAE4;
 }
 
 @media (max-width: 400px) {
