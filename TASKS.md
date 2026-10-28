@@ -29,10 +29,10 @@
 
 ## Phase 3 — Timer
 
-- [ ] Implement countdown
-- [ ] Add start button
-- [ ] Add pause button
-- [ ] Add reset button
+- [x] Implement countdown
+- [x] Add start button
+- [x] Add pause button
+- [x] Add reset button
 - [ ] Handle timer completion
 - [ ] Implement short break
 - [ ] Implement long break
