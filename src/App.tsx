@@ -1,22 +1,25 @@
 import SessionStatus from './components/SessionStatus'
 import TimerDisplay from './components/TimerDisplay'
 import TimerControls from './components/TimerControls'
+import { SESSION_DURATIONS_SECONDS } from './constants/sessionDurations'
+import { useSession } from './hooks/useSession'
 import { useTimer } from './hooks/useTimer'
 import { formatTime } from './utils/formatTime'
 import './App.css'
 
-const FOCUS_DURATION_SECONDS = 25 * 60
-
 function App() {
+  const { mode, goToNextSession } = useSession()
+  const durationSeconds = SESSION_DURATIONS_SECONDS[mode]
   const { remainingMs, isRunning, start, pause, reset } = useTimer(
-    FOCUS_DURATION_SECONDS,
+    durationSeconds,
+    goToNextSession,
   )
-  const canReset = remainingMs < FOCUS_DURATION_SECONDS * 1000
+  const canReset = remainingMs < durationSeconds * 1000
 
   return (
     <div className="app">
       <div className="timer-card">
-        <SessionStatus status="Фокус" />
+        <SessionStatus mode={mode} />
         <TimerDisplay time={formatTime(remainingMs)} />
         <TimerControls
           isRunning={isRunning}

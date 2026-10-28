@@ -21,12 +21,25 @@
 }
 
 .session-status {
-  background-color: #E6F1FB;
-  color: #185FA5;
   font-size: 14px;
   font-weight: 500;
   padding: 6px 16px;
   border-radius: 999px;
+}
+
+.session-status--focus {
+  background-color: #E6F1FB;
+  color: #185FA5;
+}
+
+.session-status--short-break {
+  background-color: #E1F5EE;
+  color: #0F6E56;
+}
+
+.session-status--long-break {
+  background-color: #EEEDFE;
+  color: #534AB7;
 }
 
 .timer-display {
