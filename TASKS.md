@@ -36,8 +36,8 @@
 - [x] Handle timer completion
 - [x] Implement short break
 - [x] Implement long break
-- [ ] Implement automatic cycle
-- [ ] Implement customizable cycle sequence
+- [x] Implement automatic cycle
+- [x] Implement customizable cycle sequence
 
 ## Phase 4 — Timer profiles
 
