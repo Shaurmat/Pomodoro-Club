@@ -1,15 +1,16 @@
 import SessionStatus from './components/SessionStatus'
 import TimerDisplay from './components/TimerDisplay'
 import TimerControls from './components/TimerControls'
-import { SESSION_DURATIONS_SECONDS } from './constants/sessionDurations'
+import { DEFAULT_PROFILE } from './constants/defaultProfile'
 import { useSession } from './hooks/useSession'
 import { useTimer } from './hooks/useTimer'
 import { formatTime } from './utils/formatTime'
 import './App.css'
 
 function App() {
-  const { mode, goToNextSession } = useSession()
-  const durationSeconds = SESSION_DURATIONS_SECONDS[mode]
+  const profile = DEFAULT_PROFILE
+  const { mode, goToNextSession } = useSession(profile.cycle)
+  const durationSeconds = profile.durations[mode]
   const { remainingMs, isRunning, start, pause, reset } = useTimer(
     durationSeconds,
     goToNextSession,
