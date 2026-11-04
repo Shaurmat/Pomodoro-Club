@@ -41,8 +41,8 @@
 
 ## Phase 4 — Timer profiles
 
-- [ ] Create profile model
-- [ ] Create default profile
+- [x] Create profile model
+- [x] Create default profile
 - [ ] Add profile creation
 - [ ] Add profile editing
 - [ ] Add profile deletion
